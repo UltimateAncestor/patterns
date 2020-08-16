@@ -2,7 +2,7 @@ package ru.dk.abstractfactory.moneyfactory.impl.products;
 
 import ru.dk.abstractfactory.moneyfactory.abstr.products.PaperBill;
 
-public class PaperUSDollar implements PaperBill {
+public class PaperUSDollar implements PaperBill{
 
     private final int denominationOfTheBill;
 

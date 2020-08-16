@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface AbstractMoneyFactory {
 
-    List<PaperBill> printPaperMoney(int numberOfBills, int denominationOfTheBill);
+    List<PaperBill> printPaperMoney(int numberOfBills, int denominationOfTheBill, String type);
 
-    List<Coin> coinage(int numberOfBills, int denominationOfTheBill);
+    List<Coin> coinage(int numberOfBills, int denominationOfTheBill, String type);
 }
